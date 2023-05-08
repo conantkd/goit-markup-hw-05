@@ -128,7 +128,21 @@ a:focus {
 }
 
 a.active {
+  position: relative;
   color: var(--link-color);
+}
+
+
+
+a.active::after {
+  position: absolute;
+  background: #2196F3;
+  border-radius: 2px;
+  content: "";
+  color: var(--link-color);
+  width: 78px;
+  height: 4px;
+  top: 50px;
 }
 
 span.tel-mail {
