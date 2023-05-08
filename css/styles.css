@@ -117,6 +117,10 @@ a:focus {
   fill: var(--contact-color);
 }
 
+.contact-header li a:visited{
+  color:var(--brand-color)
+}
+
 .contact-header li a:focus,
 .contact-header li a:hover {
   color: var(--link-color);
