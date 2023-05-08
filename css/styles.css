@@ -38,6 +38,7 @@ body {
 /*anchor deffaults*/
 a {
   text-decoration: none;
+  color: var(--brand-color);
 }
 
 a:visited {
