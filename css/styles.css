@@ -443,6 +443,7 @@ span.tel-mail {
 }
 
 .close-button {
+  cursor: pointer;
   background-color: var(--banner-color);
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: 25px;
