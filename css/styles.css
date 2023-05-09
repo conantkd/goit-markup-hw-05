@@ -435,7 +435,7 @@ span.tel-mail {
   height: 581px;
   position: relative;
   opacity: 0;
-  transition: opacity 5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity cubic-bezier(0.4, 0, 0.2, 1) 2s, transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form.is-hidden {
